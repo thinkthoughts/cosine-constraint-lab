@@ -41,7 +41,7 @@ Each week has its own index notebook in the `seminars/` directory:
 
 | Week | Index | Seminars | Avg Hydration |
 |------|-------|----------|---------------|
-| 2026-04-20 | [`seminars/2026_04_20_index.ipynb`](seminars/2026_04_20_index.ipynb) | 7 seminars | 93.6% |
+| 2026-04-20 | [`seminars/00_INDEX.ipynb`](seminars/00_INDEX.ipynb) | 7 seminars | 93.6% |
 
 ### Seminars Analyzed (April 20-24, 2026)
 
@@ -64,7 +64,7 @@ Each week has its own index notebook in the `seminars/` directory:
 3. Calculate angle and hydration score
 4. Add to a weekly index notebook
 
-See [`seminars/2026_04_20_index.ipynb`](seminars/2026_04_20_index.ipynb) for the template.
+See [`seminars/00_INDEX.ipynb`](seminars/00_INDEX.ipynb) for the template.
 
 ## 🚀 Quick Start
 
