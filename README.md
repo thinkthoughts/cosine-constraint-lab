@@ -33,6 +33,39 @@ This principle appears across mathematics, machine learning, AI alignment, physi
 | **08** | Real-World Case Studies | LLM hallucination, paper review, model drift | [![Open](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/thinkthoughts/cosine-constraint-lab/blob/main/notebooks/08_real_world_case_studies.ipynb) |
 | **09** | Cross-Domain Synthesis | Physics, economics, psychology, engineering, networks | [![Open](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/thinkthoughts/cosine-constraint-lab/blob/main/notebooks/09_cross_domain_synthesis.ipynb) |
 
+## 🎓 Seminar Analyses
+
+Beyond the core lab notebooks, this repository contains hydration analyses of seminars I've attended, applying the 45° framework to evaluate whether claims are VC (Valid Construction) or IA (Invalid Assignment).
+
+Each week has its own index notebook in the `seminars/` directory:
+
+| Week | Index | Seminars | Avg Hydration |
+|------|-------|----------|---------------|
+| 2026-04-20 | [`seminars/2026_04_20_index.ipynb`](seminars/2026_04_20_index.ipynb) | 7 seminars | 93.6% |
+
+### Seminars Analyzed (April 20-24, 2026)
+
+| # | Date | Topic | Angle | Hydration |
+|---|------|-------|-------|-----------|
+| 1 | 2026-04-20 | PH + Omega-categorical CSPs | ~7° | 92% |
+| 2 | 2026-04-20 | Symmetric Pairs + Binary Matroids | ~7° | 92% |
+| 3 | 2026-04-20 | Quantum Graphs + Spin Models | ~6° | 94% |
+| 4 | 2026-04-22 | von Neumann Algebras + Holography | ~5-6° | 95% |
+| 5 | 2026-04-22 | Rhombohedral Graphene (Ju, MIT) | ~3-5° | 97% |
+| 6 | 2026-04-23 | Monoidal Categories + Product Systems | ~6° | 93% |
+| 7 | 2026-04-24 | Schrödinger Unique Continuation | ~6-7° | 92% |
+
+**Key insight:** All seven seminars were VC/GOS — properly anchored, specific, constructed, and honest about boundaries. The highest hydration (97%) was Long Ju's talk on rhombohedral graphene, supported by two Nature papers with direct experimental evidence.
+
+### How to Add Your Own Seminar Analysis
+
+1. Create a new notebook in `seminars/YYYY_MM_DD_topic.ipynb`
+2. Rate the claim on 5-10 constraint dimensions (0-1 scale)
+3. Calculate angle and hydration score
+4. Add to a weekly index notebook
+
+See [`seminars/2026_04_20_index.ipynb`](seminars/2026_04_20_index.ipynb) for the template.
+
 ## 🚀 Quick Start
 
 ### Option 1: Run in Colab (Recommended — No Installation)
@@ -99,6 +132,7 @@ Stability
 | **Your Own Claim** | Rate it on 5 constraints → get angle | 06, 08 |
 | **Physics** | Where is the phase transition? | 09 |
 | **Economics** | Is the market approaching a bubble? | 09 |
+| **Any Seminar** | Is the speaker's claim VC or IA? | `seminars/` |
 
 ## 📁 Repository Structure
 
@@ -115,6 +149,15 @@ cosine-constraint-lab/
 │   ├── 07_triplet_progression_simulation.ipynb
 │   ├── 08_real_world_case_studies.ipynb
 │   └── 09_cross_domain_synthesis.ipynb
+├── seminars/
+│   ├── 2026_04_20_index.ipynb
+│   ├── 2026_04_20_PH_omega_categorical_CSPs.ipynb
+│   ├── 2026_04_20_symmetric_pairs_binary_matroids.ipynb
+│   ├── 2026_04_20_quantum_graphs_spin_models.ipynb
+│   ├── 2026_04_22_von_Neumann_algebras_holography.ipynb
+│   ├── 2026_04_22_rhombohedral_graphene_ju.ipynb
+│   ├── 2026_04_23_monoidal_categories_product_systems.ipynb
+│   └── 2026_04_24_schrodinger_unique_continuation.ipynb
 ├── src/
 │   └── cosine_lock.py
 ├── requirements.txt
